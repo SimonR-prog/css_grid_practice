@@ -5,7 +5,11 @@ import PageOne from "./pages/PageOne";
 import PageTwo from "./pages/PageTwo";
 import PageThree from "./pages/PageThree";
 import PageFour from "./pages/PageFour";
-import './index.css'
+import './index.css';
+import './styles/pageone.css';
+import './styles/pagetwo.css';
+import './styles/pagethree.css';
+import './styles/pagefour.css';
 
 const App = () => {
   return (

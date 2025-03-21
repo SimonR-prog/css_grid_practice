@@ -1,0 +1,32 @@
+
+.main-one {
+    display: grid;
+    grid-template-columns: minmax(50px, 270px) 1fr;
+    grid-template-rows: auto 1fr;
+    grid-template-areas: "aside header" "aside section" "aside footer";
+    height: 100dvh;
+}
+
+.main-one > header{
+    grid-area: header;
+    background-color: blueviolet;
+    border: 1px solid black;
+}
+
+.main-one > aside{
+    grid-area: aside;
+    background-color: blueviolet;
+    border: 1px solid black;
+}
+
+.main-one > section{
+    grid-area: section;
+    background-color: blueviolet;
+    border: 1px solid black;
+}
+
+.main-one > footer{
+    grid-area: footer;
+    background-color: blueviolet;
+    border: 1px solid black;
+}
