@@ -1,0 +1,41 @@
+
+*, *::before, *::after {
+    box-sizing: border-box;
+  }
+
+:root{
+
+
+}
+html, body {
+    margin: 0;
+    font-size: 16px;
+}
+
+.main-one {
+    display: grid;
+    grid-template-columns: minmax(50px, 270px) 1fr;
+    grid-template-rows: auto 1fr;
+    grid-template-areas: "header" "aside section" "footer";
+    height: 100dvh;
+}
+
+.main-one > header{
+    background-color: blueviolet;
+    border: 1px solid black;
+}
+
+.main-one > aside{
+    background-color: blueviolet;
+    border: 1px solid black;
+}
+
+.main-one > section{
+    background-color: blueviolet;
+    border: 1px solid black;
+}
+
+.main-one > footer{
+    background-color: blueviolet;
+    border: 1px solid black;
+}

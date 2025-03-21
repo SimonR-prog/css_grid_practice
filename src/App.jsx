@@ -5,6 +5,7 @@ import PageOne from "./pages/PageOne";
 import PageTwo from "./pages/PageTwo";
 import PageThree from "./pages/PageThree";
 import PageFour from "./pages/PageFour";
+import './index.css'
 
 const App = () => {
   return (

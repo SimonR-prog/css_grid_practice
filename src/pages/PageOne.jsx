@@ -2,7 +2,22 @@ import React from 'react'
 
 const PageOne = () => {
   return (
-    <div>PageOne</div>
+    <>
+      <main className='main-one'>
+        <header>
+            Header
+        </header>
+        <aside>
+            Aside
+        </aside>
+        <section>
+          section
+        </section>
+        <footer>
+          footer
+        </footer>
+      </main>
+    </>
   )
 }
 
