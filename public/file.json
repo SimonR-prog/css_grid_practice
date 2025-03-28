@@ -1,3 +1,8 @@
 [
-    { "id": 1, "projectName":"", "githubUrl": "", "imageUrl": "", "description": ""}
+    { 
+    "id": 1, 
+    "projectName": "", 
+    "githubUrl": "https://github.com/SimonR-prog", 
+    "imageUrl": "", 
+    "description": "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Itaque, voluptatem!"}
 ]

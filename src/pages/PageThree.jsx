@@ -1,21 +1,8 @@
-import React, { useEffect, useState } from 'react'
+import React from 'react'
+import Cards_Three from '../components/Cards_Three'
 
 const PageThree = () => {
-  const [data, setData] = useState([])
-
-  const getData = async () => {
-    const result = await fetch('/options.json')
-    if (!result.ok) {
-        console.log("Can't get the json file.")
-    }
-    const data = await result.json();
-
-    setData(data);
-  }
-
-  useEffect(() => {
-    getData();
-  }, [])
+  
 
   return (
     <>
@@ -23,8 +10,9 @@ const PageThree = () => {
         <header className='header-three'></header>
         <aside className='aside-three'></aside>
         <section className='section-three'>
-          <div></div>
-          <div></div>
+
+          <Cards_Three />
+
         </section>
         <footer className='footer-three'></footer>
       </main>
