@@ -33,11 +33,10 @@
 
 
 
-    --main-color: var(--color-four);
     --aside-color: var(--color-three);
     --header-color: var(--color-three);
-    --section-color: var(--color-three);
-    --card-color: var(--color-three);
+    --section-color: var(--color-four);
+    --card-color: var(--color-one);
     --footer-color: var(--color-three);
 
 
@@ -69,6 +68,14 @@ html, body {
     grid-area: header;
     background-color: var(--header-color);
     
+    position: fixed;
+    width: 100%;
+    height: 6vh;
+    top: 0;
+    left: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 .aside-three{
@@ -84,27 +91,39 @@ html, body {
 }
 
 /* Need a grid for the cards? */
-.card-three{
-    background-color: var(--card-color);
-    
-}
+
 .card{
-    background-color: var(--color-one);
+    background-color: var(--card-color);
+    margin: 2rem;
+    padding: 1.2rem 1.5rem;
+    border-radius: 16px;
+    width: 250px;
+}
+
+.card-item{
     display: grid;
     justify-content: center;
-    width: 5rem;
-    height: 5rem;
-    padding: 5rem;
+    align-items: center;
 }
 
 .footer-three{
     grid-area: footer;
     background-color: var(--footer-color);
+
+    position: fixed;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    height: 6vh;
 }
 
 .btn{
     background-color: var(--btn);
-    border-radius: 25px;
+    border-radius: 16px;
     text-decoration: none;
 
     border-color: var(--box-shadow);

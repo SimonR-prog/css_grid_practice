@@ -20,12 +20,12 @@ const Cards_Three = () => {
   return (
     <div className='card'>
         {data.map((item) => (
-            <card key={item.id}>
-                <img src="" alt="" />
+            <div className='card-item' key={item.id}>
+                <img src="..\src\images\Project_images\project_img_1.svg" alt="" />
                 <h3>{item.projectName}</h3>
                 <p>{item.description}</p>
                 <button className='btn'>Github</button>
-            </card>
+            </div>
         ))}
 
     </div>

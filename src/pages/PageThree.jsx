@@ -7,14 +7,26 @@ const PageThree = () => {
   return (
     <>
       <main className='main-three'>
-        <header className='header-three'></header>
-        <aside className='aside-three'></aside>
+        <header className='header-three'>
+          
+          <p>Header</p>
+
+        </header>
+        <aside className='aside-three'>
+
+          <p>Aside</p>
+
+        </aside>
         <section className='section-three'>
 
           <Cards_Three />
 
         </section>
-        <footer className='footer-three'></footer>
+        <footer className='footer-three'>
+          
+          <p>Footer</p>
+
+        </footer>
       </main>
       
     </>
