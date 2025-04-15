@@ -3,6 +3,37 @@
     "id": 1, 
     "projectName": "Project One", 
     "githubUrl": "https://github.com/SimonR-prog", 
-    "imageUrl": " ", 
+    "imageUrl": "..\\src\\images\\Project_images\\project_img_1.svg", 
+    "description": "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Itaque, voluptatem!"},
+    { 
+    "id": 2, 
+    "projectName": "Project Two", 
+    "githubUrl": "https://github.com/SimonR-prog", 
+    "imageUrl": "..\\src\\images\\Project_images\\project_img_2.svg", 
+    "description": "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Itaque, voluptatem!"},
+    { 
+    "id": 3, 
+    "projectName": "Project Three", 
+    "githubUrl": "https://github.com/SimonR-prog", 
+    "imageUrl": "..\\src\\images\\Project_images\\project_img_3.svg", 
+    "description": "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Itaque, voluptatem!"},
+    { 
+    "id": 4, 
+    "projectName": "Project Four", 
+    "githubUrl": "https://github.com/SimonR-prog", 
+    "imageUrl": "..\\src\\images\\Project_images\\project_img_4.svg", 
+    "description": "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Itaque, voluptatem!"},
+    { 
+    "id": 5, 
+    "projectName": "Project Five", 
+    "githubUrl": "https://github.com/SimonR-prog", 
+    "imageUrl": "..\\src\\images\\Project_images\\project_img_5.svg", 
+    "description": "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Itaque, voluptatem!"},
+    { 
+    "id": 6, 
+    "projectName": "Project Six", 
+    "githubUrl": "https://github.com/SimonR-prog", 
+    "imageUrl": "..\\src\\images\\Project_images\\project_img_6.svg", 
     "description": "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Itaque, voluptatem!"}
+    
 ]

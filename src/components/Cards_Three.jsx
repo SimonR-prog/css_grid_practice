@@ -18,17 +18,22 @@ const Cards_Three = () => {
   }, [])
 
   return (
-    <div className='card'>
+    <>
+      <div className='card'>
         {data.map((item) => (
-            <div className='card-item' key={item.id}>
-                <img src="..\src\images\Project_images\project_img_1.svg" alt="" />
-                <h3>{item.projectName}</h3>
-                <p>{item.description}</p>
-                <button className='btn'>Github</button>
-            </div>
-        ))}
-
-    </div>
+          <div className='card-item' key={item.id}>
+            <a href={item.githubUrl} target="_blank" rel="noopener noreferrer">
+              <img 
+                className="card-item-img" 
+                src={item.imageUrl} 
+                alt={item.projectName} />
+            </a>
+              <h3 className="card-item-title">{item.projectName}</h3>
+              <p className="card-item-text">{item.description}</p>
+              </div>
+            ))}
+        </div>
+    </>
   )
 }
 

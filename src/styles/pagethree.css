@@ -87,23 +87,43 @@ html, body {
 .section-three{
     grid-area: section;
     background-color: var(--section-color);
-    
+
 }
 
 /* Need a grid for the cards? */
 
 .card{
     background-color: var(--card-color);
-    margin: 2rem;
-    padding: 1.2rem 1.5rem;
     border-radius: 16px;
-    width: 250px;
+
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 260px));
+    gap: 1.5rem;
+    justify-content: center;
+    padding: 2rem;
+    max-width: 1200px;
+    margin: 0 auto;
+
 }
 
 .card-item{
     display: grid;
-    justify-content: center;
-    align-items: center;
+}
+
+.card-item-img{
+
+}
+
+.card-item-title{
+
+}
+
+.card-item-text{
+
+}
+
+.card-item-btn{
+
 }
 
 .footer-three{
